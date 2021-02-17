@@ -14,6 +14,15 @@ int main()
     scanf("%d", &N);
 
     //Write your code here
+    int sum = 0;
+
+    for(int i=0; i<=N; i++){
+
+      sum = sum + i;
+
+    }
+
+    printf("sum = %d", sum);
        
        
        
